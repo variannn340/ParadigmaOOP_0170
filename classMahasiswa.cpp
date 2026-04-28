@@ -24,5 +24,7 @@ int main()
    Mahasiswa.mhs; // deklarasi objek mhs dari class Mahasiswa 
 
    mhs.NIM = 2024;
+   mhs.nama = "Sule";
    
+
 }
