@@ -34,3 +34,12 @@ int main()
     nonElektronik.jumlah          = 30;
     nonElektronik.kategori        = "Non-Elektronik";
     nonElektronik.tanggalProduksi = "05-03-2024";
+
+    cout << "\n[Elektronik]" << endl;
+    elektronik.tampilkan();
+ 
+    cout << "\n[Non-Elektronik]" << endl;
+    nonElektronik.tampilkan();
+ 
+    return 0;
+}
