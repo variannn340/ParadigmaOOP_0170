@@ -2,7 +2,10 @@
 using namespace std;
 
 class Mahasiswa 
-{ // Akses Modifier
+{
+
+
+    public: // Akses Modifier
     int NIM;
     string nama;
     float nilai;
@@ -13,6 +16,5 @@ class Mahasiswa
         cout << "Nama = " << nama << endl;
         cout << "Nilai = " << nilai << endl;
     }
-}
 
-
+};
