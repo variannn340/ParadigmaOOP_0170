@@ -26,19 +26,19 @@ int main()
     Barang elektronik;
     elektronik.nama            = "Laptop ASUS";
     elektronik.jumlah          = 15;
-    elektronik.kategori        = "Elektronik";
+    elektronik.kategori        = "Laptop";
     elektronik.tanggalProduksi = "10-01-2025";
 
     Barang nonElektronik;
     nonElektronik.nama            = "Meja Kayu";
     nonElektronik.jumlah          = 30;
-    nonElektronik.kategori        = "Non-Elektronik";
+    nonElektronik.kategori        = "Furniture";
     nonElektronik.tanggalProduksi = "05-03-2024";
 
-    cout << "\n[Elektronik]" << endl;
+    cout << "\n[Laptop]" << endl;
     elektronik.tampilkan();
  
-    cout << "\n[Non-Elektronik]" << endl;
+    cout << "\n[Furniture]" << endl;
     nonElektronik.tampilkan();
  
     return 0;
