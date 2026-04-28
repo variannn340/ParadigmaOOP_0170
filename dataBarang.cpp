@@ -23,3 +23,8 @@ class Barang
 
 int main() 
 {
+    Barang elektronik;
+    elektronik.nama            = "Laptop ASUS";
+    elektronik.jumlah          = 15;
+    elektronik.kategori        = "Elektronik";
+    elektronik.tanggalProduksi = "10-01-2025";
