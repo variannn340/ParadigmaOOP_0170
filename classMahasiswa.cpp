@@ -18,3 +18,8 @@ class Mahasiswa
     }
 
 };
+
+int main()
+{
+    
+}
