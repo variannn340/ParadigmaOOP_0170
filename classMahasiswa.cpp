@@ -10,7 +10,7 @@ class Mahasiswa
     string nama;
     float nilai;
 
-    void pirntData()
+    void printData()
     {
         cout << "NIM = " << NIM << endl;
         cout << "Nama = " << nama << endl;
@@ -28,4 +28,5 @@ int main()
    mhs.nilai = 75.5;
    
    mhs.printData();
+
 }
