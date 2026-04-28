@@ -28,3 +28,9 @@ int main()
     elektronik.jumlah          = 15;
     elektronik.kategori        = "Elektronik";
     elektronik.tanggalProduksi = "10-01-2025";
+
+    Barang nonElektronik;
+    nonElektronik.nama            = "Meja Kayu";
+    nonElektronik.jumlah          = 30;
+    nonElektronik.kategori        = "Non-Elektronik";
+    nonElektronik.tanggalProduksi = "05-03-2024";
