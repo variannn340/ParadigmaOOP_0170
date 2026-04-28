@@ -20,3 +20,6 @@ class Barang
         cout << "------------------------" << endl;
     }
 };
+
+int main() 
+{
