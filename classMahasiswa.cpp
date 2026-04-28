@@ -21,5 +21,5 @@ class Mahasiswa
 
 int main()
 {
-    
+   Mahasiswa.mhs; // deklarasi objek mhs dari class Mahasiswa 
 }
